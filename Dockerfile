@@ -1,3 +1,3 @@
 FROM adwaitasa/adwaita
 RUN apt-get update
-ENTRYPOINT /xmrig-2.14.4/xmrig
+ENTRYPOINT /xmrig-5.1.0/xmrig --config=config.json
